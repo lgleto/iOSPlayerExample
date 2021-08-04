@@ -10,14 +10,6 @@ This example shows how to implement an audio player for iOS displaying data in M
 
 #### Usage
 
-
-```kotlin
-val newsApi: NewsApi by lazy { retrofit.create(NewsApi:: class.java) }
-val serverArticles = newsApi.topHeadlinesGet( country, category, apiKey)
-```
-
-And on iOS:
-
 ```swift
     var playerHandler : PlayerHandler = PlayerHandler()
 
@@ -40,6 +32,25 @@ And on iOS:
     }
 ```
 
+#### Play local files or streaming
+
+### Local file
+
+```swift
+   guard let url = URL(fileURLWithPath:  urlString ) else {
+       print("Error: cannot play file")
+       return
+   }
+```
+
+### Stream
+
+```swift
+   guard let url = URL(string: urlString ) else {
+       print("Error: cannot create stream URL")
+       return
+   }
+```
 
 License & copyright
 -------------------
