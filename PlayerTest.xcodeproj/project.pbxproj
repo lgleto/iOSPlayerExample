@@ -29,6 +29,7 @@
 		6C479EC626AC14F300E92F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C479ECC26AC155700E92F67 /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
 		6C479ECE26B08FD800E92F67 /* PlayerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHandler.swift; sourceTree = "<group>"; };
+		6C9F65F626BB0AA7005A97CC /* PlayerTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayerTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		6CD5CCC426B2A2D000487833 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +67,7 @@
 				6C479EB726AC14F100E92F67 /* SceneDelegate.swift */,
 				6C479EBB26AC14F100E92F67 /* Main.storyboard */,
 				6C479ECC26AC155700E92F67 /* PlayerVC.swift */,
+				6C9F65F626BB0AA7005A97CC /* PlayerTest-Bridging-Header.h */,
 				6CD5CCC426B2A2D000487833 /* Utils.swift */,
 				6C479ECE26B08FD800E92F67 /* PlayerHandler.swift */,
 				6C479EC126AC14F300E92F67 /* Assets.xcassets */,

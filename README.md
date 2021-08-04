@@ -6,7 +6,7 @@ Summary
 
 This example shows how to implement an audio player for iOS displaying data in MPNowPlayingInfoCenter by implementing a player handler to manage audio in background. It can play local file or an audio stream.
 
-![App example](docs/mobile-app.png "App example")
+![App example](assets/mobile-app.png "App example")
 
 #### Usage
 
